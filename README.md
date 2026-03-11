@@ -36,7 +36,7 @@ Code/
   index.html
   pacman.css
   pacman.js
-Output/
+Assets/
   pacman-elements/  (images)
   pacman-music/     (audio)
 ```
@@ -47,6 +47,12 @@ Output/
 - Entities are represented by `Block` objects with movement and collision handling.
 - Leaderboard uses `localStorage` to persist top scores.
 
+## Credits
+
+Based on original work by ImKennyYip (https://github.com/ImKennyYip/pacman.git). Extended with additional features and improvements. 
+
 ## License
 
 Feel free to use and modify this code for learning and personal projects.
+
+
