@@ -88,31 +88,31 @@ window.onload = function () {
 // --- LOAD IMAGES ---
 function loadImages() {
     wallImage = new Image();
-    wallImage.src = "../Output/pacman-elements/wall.png";
+    wallImage.src = "../Assets/pacman-elements/wall.png";
 
     foodImage = new Image();
-    foodImage.src = "../Output/pacman-elements/cherry.png";
+    foodImage.src = "../Assets/pacman-elements/cherry.png";
 
     heartImage = new Image();
-    heartImage.src = "../Output/pacman-elements/heart.png";
+    heartImage.src = "../Assets/pacman-elements/heart.png";
 
     blueGhostImage = new Image();
-    blueGhostImage.src = "../Output/pacman-elements/blueGhost.png";
+    blueGhostImage.src = "../Assets/pacman-elements/blueGhost.png";
     orangeGhostImage = new Image();
-    orangeGhostImage.src = "../Output/pacman-elements/orangeGhost.png";
+    orangeGhostImage.src = "../Assets/pacman-elements/orangeGhost.png";
     pinkGhostImage = new Image();
-    pinkGhostImage.src = "../Output/pacman-elements/pinkGhost.png";
+    pinkGhostImage.src = "../Assets/pacman-elements/pinkGhost.png";
     redGhostImage = new Image();
-    redGhostImage.src = "../Output/pacman-elements/redGhost.png";
+    redGhostImage.src = "../Assets/pacman-elements/redGhost.png";
 
     pacmanUpImage = new Image();
-    pacmanUpImage.src = "../Output/pacman-elements/pacmanUp.png";
+    pacmanUpImage.src = "../Assets/pacman-elements/pacmanUp.png";
     pacmanDownImage = new Image();
-    pacmanDownImage.src = "../Output/pacman-elements/pacmanDown.png";
+    pacmanDownImage.src = "../Assets/pacman-elements/pacmanDown.png";
     pacmanLeftImage = new Image();
-    pacmanLeftImage.src = "../Output/pacman-elements/pacmanLeft.png";
+    pacmanLeftImage.src = "../Assets/pacman-elements/pacmanLeft.png";
     pacmanRightImage = new Image();
-    pacmanRightImage.src = "../Output/pacman-elements/pacmanRight.png";
+    pacmanRightImage.src = "../Assets/pacman-elements/pacmanRight.png";
 
 }
 
@@ -493,13 +493,13 @@ function oppositeDirection(dir) {
 }
 
 function loadSounds() {
-    sounds.background = new Audio('../Output/pacman-music/start-pacman.mp3');
+    sounds.background = new Audio('../Assets/pacman-music/start-pacman.mp3');
     sounds.background.loop = true;
 
-    sounds.death = new Audio('../Output/pacman-music/pacman_death.wav')
-    sounds.fruitBig = new Audio('../Output/pacman-music/pacman_eatfruit.wav'); // 40 point fruit
-    sounds.fruitSmall = new Audio('../Output/pacman-music/pacman_chomp.wav'); // 10 point fruit
-    sounds.ghostHit = new Audio('../Output/pacman-music/pac-man-slap.mp3');
+    sounds.death = new Audio('../Assets/pacman-music/pacman_death.wav')
+    sounds.fruitBig = new Audio('../Assets/pacman-music/pacman_eatfruit.wav'); // 40 point fruit
+    sounds.fruitSmall = new Audio('../Assets/pacman-music/pacman_chomp.wav'); // 10 point fruit
+    sounds.ghostHit = new Audio('../Assets/pacman-music/pac-man-slap.mp3');
 }
 
 // Last Total score screen
