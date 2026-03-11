@@ -47,7 +47,7 @@ PacMan/
 │   ├── pacman.css          # Styling and layout
 │   └── pacman.js           # Game logic (575 lines)
 ├── Assets/
-│   ├── pacman-elements/    # 14 PNG sprites (ghosts, PacMan, walls, items)
+│   ├── pacman-elements/    # 13 PNG sprites (ghosts, PacMan, walls, items)
 │   └── pacman-music/       # 7 audio files (background, SFX)
 └── README.md
 ```
@@ -132,7 +132,7 @@ This project builds upon [ImKennyYip's PacMan tutorial](https://github.com/ImKen
 | **Lives Display** | Text-based (`x3`) | Visual heart icons |
 | **Game Over Screen** | Simple reset | Dedicated screen with leaderboard |
 | **Project Structure** | Flat (all files in root) | Organized (`Code/` + `Assets/`) |
-| **Asset Count** | 15 image files | 14 images + 7 audio files |
+| **Asset Count** | 15 image files | 13 images + 7 audio files |
 | **File Size** | ~143 KB | ~19 MB (due to audio assets) |
 
 ### New Code Features
